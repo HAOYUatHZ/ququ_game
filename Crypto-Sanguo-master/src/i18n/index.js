@@ -16,7 +16,7 @@ i18n.forEach((item) => {
 });
 
 export default new VueI18n({
-  locale: 'en',
+  locale: 'zh-cn',
   fallbackLocale: 'en',
   messages
 });

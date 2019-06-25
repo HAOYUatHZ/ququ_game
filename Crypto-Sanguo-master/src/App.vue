@@ -46,6 +46,7 @@ export default {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   min-height: 700px;
+  padding-top: 2em;
 }
 .is-sg-btn-primary {
   --color: #fbb800;

@@ -14,6 +14,7 @@ import TransactionView from '@/views/TransactionView';
 import HeroListView from '@/views/HeroListView';
 import BPView from '@/views/BPView';
 import LuckyTokenView from '@/views/LuckyTokenView';
+import CricketFactory from '@/views/CricketFactory';
 
 Vue.use(Router);
 
@@ -23,6 +24,26 @@ export default new Router({
     {
       name: 'Home',
       path: '/',
+      component: HomeView
+    },
+    {
+      name: 'CricketFactory',
+      path: '/cricketFactory',
+      component: CricketFactory
+    },
+    {
+      name: 'MyCricket',
+      path: '/myCricket',
+      component: HomeView
+    },
+    {
+      name: 'CricketFight',
+      path: '/cricketFight',
+      component: HomeView
+    },
+    {
+      name: 'CricketMarket',
+      path: '/cricketMarket',
       component: HomeView
     },
     {

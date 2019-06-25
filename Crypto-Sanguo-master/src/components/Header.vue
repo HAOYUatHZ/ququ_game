@@ -26,11 +26,6 @@
               p|{{getNetwork}}
 
 
-        .navbar-item
-          field(class='is-grouped')
-            .control
-              .select
-                I18nSwitcher
 
 
 </template>
