@@ -15,6 +15,7 @@ import HeroListView from '@/views/HeroListView';
 import BPView from '@/views/BPView';
 import LuckyTokenView from '@/views/LuckyTokenView';
 import CricketFactory from '@/views/CricketFactory';
+import MyCricket from '@/views/MyCricket';
 
 Vue.use(Router);
 
@@ -34,7 +35,7 @@ export default new Router({
     {
       name: 'MyCricket',
       path: '/myCricket',
-      component: HomeView
+      component: MyCricket
     },
     {
       name: 'CricketFight',
