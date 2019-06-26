@@ -32,8 +32,8 @@ export const network = {
   3: {
     // default: true, // It will be used when no metaMask
     name: 'Ropsten Test Network',
-    contract: '0xd17c1d983030970a8b55f2df647aa351f71430e6',
-    LuckyPackage: '0xc5f73d596378ec0535cf0fdb16eb6fc13d966978',
+    contract: '0x6b3c26c15ae6d45e05bddbf858fdab11f01ceb68',
+    LuckyPackage: '0x475b43856b020e1526d5f652cdab25f3b89bef80',
     DecentralizedExchangeHotPotato: '0x4a11d94715194d602f9ec570e446e33bf9e41fed',
     rpc: 'https://ropsten.infura.io/lTETGFVyQX99UKQ98BN4'
   },
@@ -74,7 +74,8 @@ export const network = {
   }
 };
 
-export const defaultNetwork = Object.values(network).find(net => net.default);
+// export const defaultNetwork = Object.values(network).find(net => net.default);
+export const defaultNetwork = network[3];
 
 export const i18n = [{
   langDisplay: '中文',

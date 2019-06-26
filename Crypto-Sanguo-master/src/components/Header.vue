@@ -24,10 +24,6 @@
             span.info
               p|{{getBalance}} ETH
               p|{{getNetwork}}
-
-
-
-
 </template>
 
 

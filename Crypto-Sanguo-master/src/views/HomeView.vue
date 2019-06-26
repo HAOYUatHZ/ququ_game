@@ -6,10 +6,10 @@
 </template>
 
 <script>
-import { Slider, SliderItem } from "vue-easy-slider";
+import { Slider, SliderItem } from 'vue-easy-slider';
 
 export default {
-  name: "PackViewNew",
+  name: 'PackViewNew',
   components: {
     Slider,
     SliderItem
@@ -29,5 +29,6 @@ export default {
   font-size: 40px;
   font-weight: bold;
   color: white;
+  text-shadow:2px 2px 5px #333333;
 }
 </style>

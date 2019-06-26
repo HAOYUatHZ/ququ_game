@@ -11,20 +11,29 @@
 </template>
 
 <script>
+import { getPackageSize } from "@/api";
+
 export default {
   data: () => ({
-    showResult: false
+    showResult: false,
+    packageSize: 0
   }),
 
   computed: {},
 
-  created() {},
+  created() {
+    this.refresh();
+  },
 
   watch: {},
 
   methods: {
     getQQ() {
       this.showResult = true;
+    },
+    async refresh() {
+      this.packageSize = await getPackageSize();
+      alert(this.packageSize);
     }
   }
 };
